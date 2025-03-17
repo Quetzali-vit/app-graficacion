@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Creepster");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
-html, body {
+html,
+body {
   margin: 0;
   overflow: hidden;
 }
