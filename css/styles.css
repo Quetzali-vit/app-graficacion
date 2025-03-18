@@ -1,0 +1,44 @@
+/* Importación de fuentes desde Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Creepster");
+/* Fuente con estilo terrorífico */
+
+/* Estilización del lienzo (canvas) */
+canvas {
+    background: url('Pasto.png') center/cover no-repeat;
+    /* Imagen de fondo cubriendo todo el canvas */
+}
+
+/* Contenedor de la pantalla de portada */
+#portada {
+    background: url('Pasto.png') center/cover no-repeat;
+    /* Fondo con imagen */
+}
+
+/* Estilo del título en la portada */
+#portada h1 {
+    font-family: "Creepster", cursive;
+    /* Fuente con estilo terrorífico */
+    font-size: 100px;
+    /* Tamaño grande para destacar */
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.911);
+    /* Sombra negra para dar efecto de relieve */
+}
+
+/* Sección de instrucciones */
+#instrucciones {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Degradado oscuro */
+        url('Pasto.png') center/cover no-repeat; /* Fondo con imagen */
+    color: white; /* Asegura que el texto sea visible sobre el fondo */
+}
+
+
+/* Título de la sección de instrucciones */
+#instrucciones h2 {
+    font-family: "Creepster", cursive;
+    /* Fuente terrorífica */
+    font-size: 50px;
+    /* Tamaño grande */
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8);
+    /* Sombra negra */
+}
