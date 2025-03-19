@@ -1,6 +1,5 @@
-/* Importación de fuentes desde Google Fonts */
-@import url("https://fonts.googleapis.com/css?family=Creepster");
 /* Fuente con estilo terrorífico */
+@import url("https://fonts.googleapis.com/css?family=Creepster");
 
 /* Estilización del lienzo (canvas) */
 canvas {
@@ -26,12 +25,14 @@ canvas {
 
 /* Sección de instrucciones */
 #instrucciones {
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Degradado oscuro */
-        url('Pasto.png') center/cover no-repeat; /* Fondo con imagen */
-    color: white; /* Asegura que el texto sea visible sobre el fondo */
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        /* Degradado oscuro */
+        url('Pasto.png') center/cover no-repeat;
+    /* Fondo con imagen */
+    color: white;
+    /* Asegura que el texto sea visible sobre el fondo */
 }
-
 
 /* Título de la sección de instrucciones */
 #instrucciones h2 {

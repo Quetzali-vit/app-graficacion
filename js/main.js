@@ -16,7 +16,6 @@ document.getElementById('btnEmpezarJuego').addEventListener('click', function ()
     if (instrucciones) {
         instrucciones.style.display = 'none';
     }
-    // Inicia el juego
     iniciarJuego();
 });
 
@@ -822,6 +821,7 @@ function iniciarJuego() {
             can.width = this.innerWidth;    // Ajusta el ancho del canvas
             can.height = this.innerHeight;  // Ajusta el alto del canvas
         }).on("keydown", move)              // Detecta cuando se presionan teclas
+        
             .on("keyup", function (e) {
                 switch (e.which || e.keyCode) {
                     case 37: // Flecha izquierda
